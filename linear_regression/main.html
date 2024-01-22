@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <title>TITLE</title>
+    <meta name="description" content="DESCRIPTION">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <h1>Visualize Linear Regression</h1>
+    <label> In X = </label><input type="text" name="data_x" value='0,1,2,3,4,5,6,7,8,9,10'> <br>
+    <label> In Y = </label><input type="text" name="data_y" value='-0.5, 1.1,1.5,3.2,4.1,4.2,6.5,6.4,8.3,9.7,9.1'> <br><br>
+    <label> m = </label><input type="number" name="m" value='1'> <br>
+    <label> c = </label><input type="number" name="c" value='0'> <br>
+    <label> epochs = </label><input type="number" name="max-epochs" value='10'> <br>
+    <label> lr = </label><input type="number" name="lr" value='0.01'> <br><br>
+    <button id="run-button"> Run Regression </button>
+
+    <div id="plot-id"></div>
+    <div id="m-c-plot"></div>
+
+</body>
+
+</html>
